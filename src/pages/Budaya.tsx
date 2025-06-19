@@ -1,5 +1,8 @@
 import Navbar from "../components/Navbar"
 import karapanSapi from "../assets/images/karapansapi.jpg"
+import KarapImg from "../assets/images/Karap.jpg"
+import RokatImg from "../assets/images/Rokat.jpg"
+import ToktokImg from "../assets/images/Toktok.jpeg"
 import { BookOpen, Drum, Feather, Landmark, Palette, Shield, Shirt, Swords, Waves } from "lucide-react"
 
 const budayaList = [
@@ -8,12 +11,14 @@ const budayaList = [
     icon: <Swords className="w-8 h-8 text-yellow-400" />, // closest icon for race/competition
     desc: `Lomba pacu sapi berpasangan di lintasan sekitar 100 m, diadakan tiap Agustus–Oktober. Sapi dihias, dijalankan dengan iringan gamelan dan upacara tradisional.`,
     sumber: ["indonesiaexpat.id", "kumparan.com", "liputan6.com"],
+    image: KarapImg,
   },
   {
     title: "Upacara Rokat (Petik Laut)",
     icon: <Waves className="w-8 h-8 text-blue-400" />, // sea/ritual
     desc: `Ritual syukur nelayan dengan doa, istighosah, dan penghanyutan sesaji (ketan, tumpeng, ikan) ke laut agar rezeki dan keselamatan meningkat.`,
     sumber: ["dailynusantara.com", "liputan6.com", "infokost.id"],
+    image: RokatImg,
   },
   {
     title: "Upacara Nadar",
@@ -26,6 +31,7 @@ const budayaList = [
     icon: <Shield className="w-8 h-8 text-green-400" />,
     desc: `Dua sapi jantan bertarung saling seruduk, didampingi wasit ahli untuk memastikan keselamatan. Acara ini memadukan kekuatan dan tradisi wilayah Masalembu.`,
     sumber: ["travel.detik.com", "kumparan.com", "liputan6.com"],
+    image: ToktokImg,
   },
   {
     title: "Ritual Ojung",
@@ -92,6 +98,10 @@ export default function Budaya() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
           {budayaList.map((item) => (
             <div key={item.title} className="bg-white/10 border border-white/10 rounded-3xl p-6 flex flex-col gap-3 shadow-xl hover:scale-[1.02] hover:shadow-2xl transition-all duration-300">
+              {/* Show image if available */}
+              {item.image && (
+                <img src={item.image} alt={item.title} className="w-full h-48 object-cover rounded-2xl mb-3 shadow-lg border border-white/20" />
+              )}
               <div className="flex items-center gap-4 mb-2">
                 {item.icon}
                 <h2 className="text-white text-2xl font-bold font-serif">{item.title}</h2>
