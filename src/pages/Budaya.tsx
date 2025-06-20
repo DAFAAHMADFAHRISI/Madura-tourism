@@ -6,6 +6,7 @@ import ToktokImg from "../assets/images/Toktok.jpeg"
 import NyadarImg from "../assets/images/Nyadar.jpeg"
 import OjungImg from "../assets/images/ojung.jpg"
 import CarokImg from "../assets/images/carok.jpg"
+import BatikImg from "../assets/images/Batik.jpg"
 import { BookOpen, Drum, Feather, Landmark, Palette, Shield, Shirt, Swords, Waves } from "lucide-react"
 
 const budayaList = [
@@ -46,12 +47,6 @@ const budayaList = [
     image: CarokImg,
   },
   {
-    title: "Clurit (Celurit)",
-    icon: <Swords className="w-8 h-8 text-yellow-700" />,
-    desc: `Senjata tradisional berbentuk sickle khas Madura. Selain dipakai dalam Carok, juga digunakan dalam Pencak Silat, serta memiliki nilai simbol identitas budaya.`,
-    image: undefined,
-  },
-  {
     title: "Mondok (Pesantren)",
     icon: <BookOpen className="w-8 h-8 text-blue-700" />,
     desc: `Tradisi mengirim anak ke pondok pesantren sejak usia dini. Keberanian mengedepankan pendidikan agama, dengan tingkat kepatuhan tinggi terhadap kyai.`,
@@ -61,7 +56,7 @@ const budayaList = [
     title: "Madurese Batik",
     icon: <Palette className="w-8 h-8 text-pink-600" />,
     desc: `Karya tekstil warna cerah (merah, kuning, hijau, biru, hitam) dengan motif flora, fauna, geometri. Diakui UNESCO sebagai warisan tak benda pada 2009.`,
-    image: undefined,
+    image: BatikImg,
   },
   {
     title: "Kerajinan Tradisional",
