@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar"
 import { Link } from "react-router-dom"
+import bgImage from "../assets/images/karapansapi.jpg"
 
 const kotaList = [
   {
@@ -26,7 +27,18 @@ const kotaList = [
 
 export default function Pariwisata() {
   return (
-    <div className="relative min-h-screen w-screen flex flex-col overflow-hidden bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900">
+    <div className="relative min-h-screen w-screen flex flex-col overflow-hidden">
+      {/* Background Image with Parallax Effect */}
+      <div className="absolute inset-0 -z-10">
+        <img
+          src={bgImage || "/placeholder.svg"}
+          alt="Karapan Sapi Madura"
+          className="w-full h-full object-cover object-center scale-105 animate-slow-zoom"
+        />
+        {/* Gradient Overlay for Better Text Readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+      </div>
       <Navbar />
       <div className="flex flex-col items-center justify-center flex-1 w-full max-w-6xl mx-auto px-4 md:px-8 pt-24 pb-12 animate-fade-in-up">
         <h1 className="text-white text-4xl md:text-6xl font-serif font-bold mb-4 drop-shadow-2xl text-center">4 Kota Utama di Pulau Madura</h1>
