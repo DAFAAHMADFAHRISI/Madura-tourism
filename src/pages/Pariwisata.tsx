@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar"
+import { Link } from "react-router-dom"
 
 const kotaList = [
   {
@@ -47,7 +48,16 @@ export default function Pariwisata() {
                   title={`Peta ${item.title}`}
                 ></iframe>
               </div>
-              <button className="mt-4 bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-4 py-2 rounded-full transition-all duration-200 shadow self-end">Lihat Wisata</button>
+              {item.title === "Bangkalan" ? (
+                <Link
+                  to="/pariwisata/bangkalan"
+                  className="mt-4 bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-4 py-2 rounded-full transition-all duration-200 shadow self-end text-center"
+                >
+                  Lihat Wisata
+                </Link>
+              ) : (
+                <button className="mt-4 bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-4 py-2 rounded-full transition-all duration-200 shadow self-end">Lihat Wisata</button>
+              )}
             </div>
           ))}
         </div>
