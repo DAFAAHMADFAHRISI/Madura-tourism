@@ -8,6 +8,7 @@ import OjungImg from "../assets/images/ojung.jpg"
 import CarokImg from "../assets/images/carok.jpg"
 import BatikImg from "../assets/images/Batik.jpg"
 import BatokImg from "../assets/images/Batok.jpg"
+import PakaianImg from "../assets/images/Pakaian.jpeg"
 import { BookOpen, Drum, Feather, Landmark, Palette, Shield, Shirt, Swords, Waves } from "lucide-react"
 
 const budayaList = [
@@ -69,7 +70,7 @@ const budayaList = [
     title: "Pakaian Adat & Bahasa",
     icon: <Shirt className="w-8 h-8 text-indigo-400" />,
     desc: `Pesa'an: baju hitam longgar + celana gombrong + ikat kepala (odheng) yang menunjukkan status.`,
-    image: undefined,
+    image: PakaianImg,
   },
 ]
 
