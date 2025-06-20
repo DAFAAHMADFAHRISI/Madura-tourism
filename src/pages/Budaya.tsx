@@ -9,6 +9,7 @@ import CarokImg from "../assets/images/carok.jpg"
 import BatikImg from "../assets/images/Batik.jpg"
 import BatokImg from "../assets/images/Batok.jpg"
 import PakaianImg from "../assets/images/Pakaian.jpeg"
+import PondokImg from "../assets/images/Pondok.jpg"
 import { BookOpen, Drum, Feather, Landmark, Palette, Shield, Shirt, Swords, Waves } from "lucide-react"
 
 const budayaList = [
@@ -52,7 +53,7 @@ const budayaList = [
     title: "Mondok (Pesantren)",
     icon: <BookOpen className="w-8 h-8 text-blue-700" />,
     desc: `Tradisi mengirim anak ke pondok pesantren sejak usia dini. Keberanian mengedepankan pendidikan agama, dengan tingkat kepatuhan tinggi terhadap kyai.`,
-    image: undefined,
+    image: PondokImg,
   },
   {
     title: "Madurese Batik",
