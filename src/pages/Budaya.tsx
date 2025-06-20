@@ -3,6 +3,7 @@ import karapanSapi from "../assets/images/karapansapi.jpg"
 import KarapImg from "../assets/images/Karap.jpg"
 import RokatImg from "../assets/images/Rokat.jpg"
 import ToktokImg from "../assets/images/Toktok.jpeg"
+import NyadarImg from "../assets/images/Nyadar.jpeg"
 import { BookOpen, Drum, Feather, Landmark, Palette, Shield, Shirt, Swords, Waves } from "lucide-react"
 
 const budayaList = [
@@ -25,6 +26,7 @@ const budayaList = [
     icon: <Feather className="w-8 h-8 text-pink-400" />,
     desc: `Dilaksanakan 3× per tahun—biasanya di Kalianget—melibatkan tabur bunga di makam leluhur, doa bersama, persiapan makanan, dan menginap di dekat makam.`,
     sumber: ["sumenepkab.go.id", "kumparan.com", "infokost.id"],
+    image: NyadarImg,
   },
   {
     title: "Toktok (Aduan Sapi Masalembu)",
@@ -114,6 +116,7 @@ export default function Budaya() {
                   ))}
                 </div>
               )}
+              <button className="mt-3 self-end bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-4 py-2 rounded-full transition-all duration-200 shadow">Lebih lengkap</button>
             </div>
           ))}
         </div>
