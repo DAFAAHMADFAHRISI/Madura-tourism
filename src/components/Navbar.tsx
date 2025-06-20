@@ -13,7 +13,7 @@ export default function Navbar() {
             <Link to="/budaya" className="text-white/90 hover:text-white transition-colors">
               Budaya
             </Link>
-            <Link to="#" className="text-white/90 hover:text-white transition-colors">
+            <Link to="/pariwisata" className="text-white/90 hover:text-white transition-colors">
               Pariwisata
             </Link>
             <Link to="#" className="text-white/90 hover:text-white transition-colors">
