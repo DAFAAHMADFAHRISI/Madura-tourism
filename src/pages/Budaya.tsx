@@ -5,6 +5,7 @@ import RokatImg from "../assets/images/Rokat.jpg"
 import ToktokImg from "../assets/images/Toktok.jpeg"
 import NyadarImg from "../assets/images/Nyadar.jpeg"
 import OjungImg from "../assets/images/ojung.jpg"
+import CarokImg from "../assets/images/carok.jpg"
 import { BookOpen, Drum, Feather, Landmark, Palette, Shield, Shirt, Swords, Waves } from "lucide-react"
 
 const budayaList = [
@@ -42,7 +43,7 @@ const budayaList = [
     title: "Carok",
     icon: <Swords className="w-8 h-8 text-gray-400" />,
     desc: `Duel menggunakan celurit (sering mati) sebagai bentuk penyelesaian konflik terkait kehormatan atau keluarga. Dilihat sebagai perwujudan filosofi "lebih baik mati daripada malu".`,
-    image: undefined,
+    image: CarokImg,
   },
   {
     title: "Clurit (Celurit)",
