@@ -7,6 +7,7 @@ import NyadarImg from "../assets/images/Nyadar.jpeg"
 import OjungImg from "../assets/images/ojung.jpg"
 import CarokImg from "../assets/images/carok.jpg"
 import BatikImg from "../assets/images/Batik.jpg"
+import BatokImg from "../assets/images/Batok.jpg"
 import { BookOpen, Drum, Feather, Landmark, Palette, Shield, Shirt, Swords, Waves } from "lucide-react"
 
 const budayaList = [
@@ -62,7 +63,7 @@ const budayaList = [
     title: "Kerajinan Tradisional",
     icon: <Landmark className="w-8 h-8 text-green-700" />,
     desc: `Termasuk anyaman tikar, topi, tas, serta pembuatan perahu tradisional seperti Lis-alis, Paduwang, khas Madura untuk kegiatan nelayan dan transportasi lokal.`,
-    image: undefined,
+    image: BatokImg,
   },
   {
     title: "Pakaian Adat & Bahasa",
