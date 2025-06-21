@@ -5,6 +5,7 @@ import Pariwisata from './pages/Pariwisata';
 import ListWisataBangkalan from './pages/Pariwisata/Bangkalan/ListWisataBangkalan';
 import JaddihLimestoneHill from './pages/Pariwisata/Bangkalan/Jaddih Limestone Hill';
 import BukitKapurAermataBangkalan from './pages/Pariwisata/Bangkalan/Bukit Kapur Aermata Bangkalan';
+import BukitKapurArosbaya from './pages/Pariwisata/Bangkalan/Bukit Kapur Arosbaya';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/pariwisata/bangkalan" element={<ListWisataBangkalan />} />
         <Route path="/pariwisata/bangkalan/jaddih-limestone-hill" element={<JaddihLimestoneHill />} />
         <Route path="/pariwisata/bangkalan/bukit-kapur-aermata-bangkalan" element={<BukitKapurAermataBangkalan />} />
+        <Route path="/pariwisata/bangkalan/bukit-kapur-arosbaya" element={<BukitKapurArosbaya />} />
       </Routes>
     </BrowserRouter>
   );
