@@ -1,6 +1,7 @@
 import { ChevronDown, MapPin, Star, Users } from "lucide-react"
 import Navbar from "../components/Navbar"
 import karapanSapi from "../assets/images/karapansapi.jpg"
+import { Link } from "react-router-dom"
 
 export default function Home() {
   return (
@@ -46,10 +47,13 @@ export default function Home() {
 
         {/* CTA Button */}
         <div className="flex flex-col sm:flex-row gap-4 mb-8 w-full justify-center">
-          <button className="group px-8 py-4 bg-white text-black font-semibold rounded-full shadow-xl hover:bg-white/90 transition-all duration-300 text-lg flex items-center justify-center gap-2 hover:scale-105 hover:shadow-2xl">
+          <Link
+            to="/budaya"
+            className="group px-8 py-4 bg-white text-black font-semibold rounded-full shadow-xl hover:bg-white/90 transition-all duration-300 text-lg flex items-center justify-center gap-2 hover:scale-105 hover:shadow-2xl"
+          >
             Mulai Petualangan Anda Sekarang!
             <ChevronDown className="w-5 h-5 group-hover:translate-y-1 transition-transform" />
-          </button>
+          </Link>
         </div>
 
         {/* Section: Daya Tarik Utama Madura */}
@@ -79,9 +83,12 @@ export default function Home() {
           <li><b>Pantai Sembilan:</b> Keunikan bentuknya menyerupai angka sembilan dengan pasir putih halus.</li>
           <li><b>Makam Asta Tinggi:</b> Komplek makam raja-raja dan ulama Madura yang kaya akan nilai sejarah dan spiritual.</li>
         </ul>
-        <button className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-black transition-all duration-300 text-lg backdrop-blur-sm">
+        <Link
+          to="/pariwisata"
+          className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-black transition-all duration-300 text-lg backdrop-blur-sm text-center"
+        >
           Lihat Semua Destinasi Menarik di Madura
-        </button>
+        </Link>
       </div>
 
       {/* Scroll Indicator */}
