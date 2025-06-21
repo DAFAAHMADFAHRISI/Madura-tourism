@@ -12,6 +12,10 @@ export default function JaddihLimestoneHill() {
       <Navbar />
       {/* Hero Section with Gallery */}
       <div className="flex flex-col md:flex-row items-start justify-center gap-8 pt-28 pb-10 px-4 md:px-16 animate-fade-in-up">
+        {/* Tombol Kembali di luar galeri gambar */}
+        <Link to="/pariwisata/bangkalan" className="mb-4 self-start px-4 py-2 bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold rounded-full shadow transition-all text-sm">
+          Kembali
+        </Link>
         {/* Image Gallery */}
         <div className="flex flex-col gap-4 md:w-1/2 w-full">
           <img src={Jaddih1} alt="Jaddih Limestone Hill 1" className="rounded-3xl shadow-lg border border-white/30 object-cover w-full h-64 md:h-80" />
@@ -36,9 +40,6 @@ export default function JaddihLimestoneHill() {
         <div className="md:w-1/2 w-full flex flex-col gap-6 md:items-start justify-start self-start">
           <div className="flex items-center gap-4 mb-2">
             <h1 className="text-3xl md:text-5xl font-bold font-serif text-gray-800 drop-shadow-lg">Jaddih Limestone Hill</h1>
-            <Link to="/pariwisata/bangkalan" className="px-4 py-2 bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold rounded-full shadow transition-all text-sm">
-              Kembali
-            </Link>
           </div>
           <p className="text-base text-gray-600 font-medium mb-2">Lokasi: Desa Jaddih, Kecamatan Socah, Kabupaten Bangkalan, Madura, Jawa Timur.</p>
           <p className="text-lg md:text-xl text-gray-700 font-light mb-4">Jaddih Limestone Hill adalah salah satu destinasi wisata alam unik yang terletak di Desa Jaddih, Kecamatan Socah, Kabupaten Bangkalan, Pulau Madura, Jawa Timur. Tempat ini dikenal dengan sebutan Bukit Kapur Jaddih dan menawarkan pemandangan alam yang eksotis dan Instagramable.</p>
