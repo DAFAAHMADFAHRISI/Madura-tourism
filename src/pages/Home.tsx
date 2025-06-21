@@ -1,4 +1,4 @@
-import { ChevronDown, MapPin, Star, Users } from "lucide-react"
+import { ChevronDown, MapPin } from "lucide-react"
 import Navbar from "../components/Navbar"
 import karapanSapi from "../assets/images/karapansapi.jpg"
 import { Link } from "react-router-dom"
