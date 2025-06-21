@@ -45,17 +45,15 @@ export default function BukitKapurAermataBangkalan() {
             <div className="mb-2">
               <span className="text-base sm:text-lg font-semibold">🔍 Daya Tarik</span>
               <p className="text-xs sm:text-sm mt-1">Formasi tebing kapur merah-kecoklatan hasil pahatan tambang, lengkap dengan lorong, gua kecil, dan relief alami yang artistik <br/>
-                <span className="text-xs text-gray-500">rodadanroti.com +12, pandhalungan.com +12, surabaya.pikiran-rakyat.com +12</span>
               </p>
               <p className="text-xs sm:text-sm mt-2">Sering disebut "Petra"nya Indonesia atau mirip lanskap Mesir karena kesan dramatis dan eksotis.</p>
               <p className="text-xs sm:text-sm mt-2">Cocok untuk pre-wedding/fotografi, terutama di cahaya sore atau sinar terik yang menciptakan kontras dramatis pada tebing.</p>
             </div>
             <span className="text-base sm:text-lg font-semibold">🛠️ Fasilitas & Catatan Penting</span>
             <p className="text-xs sm:text-sm mt-1">Masih aktif sebagai tambang: waspadai kendaraan berat dan potensi longsor <br/>
-              <span className="text-xs text-gray-500">ranselmungil.com +7, bangsaonline.com +7, tripadvisor.co.id +7</span>
             </p>
             <p className="text-xs sm:text-sm mt-2">Tidak banyak fasilitas umum: minim toilet, tempat duduk, atau tempat sampah; ada warung lokal dan guide jika diperlukan.</p>
-            <p className="text-xs sm:text-sm mt-2">Medan jalannya sempit & licin saat hujan—hati-hati jika membawa mobil dan pilih waktu kunjungan pagi atau sore untuk kondisi terbaik dan pencahayaan optimal <span className="text-xs text-gray-500">rodadanroti.com</span>.</p>
+            <p className="text-xs sm:text-sm mt-2">Medan jalannya sempit & licin saat hujan—hati-hati jika membawa mobil dan pilih waktu kunjungan pagi atau sore untuk kondisi terbaik dan pencahayaan optimal.</p>
           </div>
           <div className="mb-2">
             <span className="text-base sm:text-lg font-semibold">🤩 Tips Kunjungan</span>
