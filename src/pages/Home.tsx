@@ -21,74 +21,70 @@ export default function Home() {
       <Navbar />
 
       {/* Main Hero Content */}
-      <div className="flex flex-col items-start justify-center flex-1 w-full max-w-7xl mx-auto px-6 md:px-16 pt-20">
-        <div className="animate-fade-in-up">
-          {/* Location Badge */}
-          <div className="flex items-center gap-2 mb-6 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
-            <MapPin className="w-4 h-4 text-white" />
-            <span className="text-white text-sm font-medium">East Java, Indonesia</span>
+      <div className="animate-fade-in-up px-4 pt-28 pb-10 flex flex-col items-center w-full max-w-3xl mx-auto">
+        {/* Location Badge */}
+        <div className="flex items-center gap-2 mb-6 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
+          <MapPin className="w-4 h-4 text-white" />
+          <span className="text-white text-sm font-medium">East Java, Indonesia</span>
+        </div>
+
+        {/* Main Heading */}
+        <h1 className="text-white text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-serif font-bold mb-6 drop-shadow-2xl leading-tight text-center">
+          Madura
+        </h1>
+
+        {/* Subtitle */}
+        <h2 className="text-white/90 text-lg sm:text-xl md:text-2xl font-light mb-8 drop-shadow-lg text-center">
+          The Island of Bulls & Cultural Heritage
+        </h2>
+
+        {/* Description */}
+        <p className="text-white/90 text-base sm:text-lg md:text-xl font-light mb-6 drop-shadow leading-relaxed text-center">
+          Discover the incomparable wonders and stunning cultural beauty of Madura. Experience the legendary Karapan
+          Sapi bull racing, savor authentic cuisine, and immerse yourself in centuries-old traditions.
+        </p>
+
+        {/* Stats */}
+        <div className="flex flex-wrap gap-6 mb-8 justify-center">
+          <div className="flex items-center gap-2 text-white/80">
+            <Star className="w-5 h-5 text-yellow-400" />
+            <span className="text-sm">4.8/5 Rating</span>
           </div>
-
-          {/* Main Heading */}
-          <h1 className="text-white text-6xl md:text-8xl lg:text-9xl font-serif font-bold mb-6 drop-shadow-2xl leading-tight">
-            Madura
-          </h1>
-
-          {/* Subtitle */}
-          <h2 className="text-white/90 text-xl md:text-2xl font-light mb-8 drop-shadow-lg">
-            The Island of Bulls & Cultural Heritage
-          </h2>
-
-          {/* Description */}
-          <div className="max-w-2xl mb-12">
-            <p className="text-white/90 text-lg md:text-xl font-light mb-6 drop-shadow leading-relaxed">
-              Discover the incomparable wonders and stunning cultural beauty of Madura. Experience the legendary Karapan
-              Sapi bull racing, savor authentic cuisine, and immerse yourself in centuries-old traditions.
-            </p>
-
-            {/* Stats */}
-            <div className="flex flex-wrap gap-6 mb-8">
-              <div className="flex items-center gap-2 text-white/80">
-                <Star className="w-5 h-5 text-yellow-400" />
-                <span className="text-sm">4.8/5 Rating</span>
-              </div>
-              <div className="flex items-center gap-2 text-white/80">
-                <Users className="w-5 h-5" />
-                <span className="text-sm">50K+ Visitors</span>
-              </div>
-              <div className="flex items-center gap-2 text-white/80">
-                <MapPin className="w-5 h-5" />
-                <span className="text-sm">4 Regencies</span>
-              </div>
-            </div>
+          <div className="flex items-center gap-2 text-white/80">
+            <Users className="w-5 h-5" />
+            <span className="text-sm">50K+ Visitors</span>
           </div>
-
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-16">
-            <button className="group px-8 py-4 bg-white text-black font-semibold rounded-full shadow-xl hover:bg-white/90 transition-all duration-300 text-lg flex items-center justify-center gap-2 hover:scale-105 hover:shadow-2xl">
-              Start Your Journey
-              <ChevronDown className="w-5 h-5 group-hover:translate-y-1 transition-transform" />
-            </button>
-            <button className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-black transition-all duration-300 text-lg backdrop-blur-sm">
-              Watch Video
-            </button>
+          <div className="flex items-center gap-2 text-white/80">
+            <MapPin className="w-5 h-5" />
+            <span className="text-sm">4 Regencies</span>
           </div>
+        </div>
+
+        {/* CTA Buttons */}
+        <div className="flex flex-col sm:flex-row gap-4 mb-16 w-full justify-center">
+          <button className="group px-8 py-4 bg-white text-black font-semibold rounded-full shadow-xl hover:bg-white/90 transition-all duration-300 text-lg flex items-center justify-center gap-2 hover:scale-105 hover:shadow-2xl">
+            Start Your Journey
+            <ChevronDown className="w-5 h-5 group-hover:translate-y-1 transition-transform" />
+          </button>
+          <button className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-black transition-all duration-300 text-lg backdrop-blur-sm">
+            Watch Video
+          </button>
         </div>
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="flex justify-center pb-4">
         <ChevronDown className="w-6 h-6 text-white/70" />
       </div>
 
       {/* Floating Elements */}
-      <div className="absolute top-1/4 right-8 hidden lg:block animate-float">
+      <div className="absolute top-1/4 right-4 hidden lg:block animate-float">
         <div className="w-2 h-2 bg-white/30 rounded-full"></div>
       </div>
-      <div className="absolute top-1/3 right-24 hidden lg:block animate-float-delayed">
+      <div className="absolute top-1/3 right-16 hidden lg:block animate-float-delayed">
         <div className="w-1 h-1 bg-white/20 rounded-full"></div>
       </div>
-      <div className="absolute bottom-1/4 right-12 hidden lg:block animate-float">
+      <div className="absolute bottom-1/4 right-8 hidden lg:block animate-float">
         <div className="w-3 h-3 bg-white/20 rounded-full"></div>
       </div>
     </div>
