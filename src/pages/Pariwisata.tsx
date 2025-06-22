@@ -67,6 +67,13 @@ export default function Pariwisata() {
                 >
                   Lihat Wisata
                 </Link>
+              ) : item.title === "Sampang" ? (
+                <Link
+                  to="/pariwisata/sampang"
+                  className="mt-4 bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-4 py-2 rounded-full transition-all duration-200 shadow self-end text-center"
+                >
+                  Lihat Wisata
+                </Link>
               ) : (
                 <button className="mt-4 bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-4 py-2 rounded-full transition-all duration-200 shadow self-end">Lihat Wisata</button>
               )}

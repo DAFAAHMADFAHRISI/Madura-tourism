@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Budaya from './pages/Budaya';
 import Pariwisata from './pages/Pariwisata';
 import ListWisataBangkalan from './pages/Pariwisata/Bangkalan/ListWisataBangkalan';
+import ListWisataSampang from './pages/Pariwisata/Sampang/ListWisataSampang';
 import JaddihLimestoneHill from './pages/Pariwisata/Bangkalan/Jaddih Limestone Hill';
 import BukitKapurAermataBangkalan from './pages/Pariwisata/Bangkalan/Bukit Kapur Aermata Bangkalan';
 import BukitKapurArosbaya from './pages/Pariwisata/Bangkalan/Bukit Kapur Arosbaya';
@@ -22,6 +23,7 @@ function App() {
         <Route path="/pariwisata/bangkalan/bukit-kapur-arosbaya" element={<BukitKapurArosbaya />} />
         <Route path="/pariwisata/bangkalan/pantai-siring-kemuning" element={<PantaiSiringKemuning />} />
         <Route path="/pariwisata/bangkalan/gua-pote-bukit-jaddih" element={<GuaPoteBukitJaddih />} />
+        <Route path="/pariwisata/sampang" element={<ListWisataSampang />} />
       </Routes>
     </BrowserRouter>
   );
