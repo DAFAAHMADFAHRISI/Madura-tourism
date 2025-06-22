@@ -9,6 +9,10 @@ const wisataList = [
   {
     name: "Pantai Camplong",
     path: "/pariwisata/sampang/pantai-camplong"
+  },
+  {
+    name: "Goa Lebar",
+    path: "/pariwisata/sampang/goa-lebar"
   }
 ];
 

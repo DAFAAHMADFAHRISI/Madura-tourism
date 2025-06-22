@@ -11,6 +11,7 @@ import PantaiSiringKemuning from './pages/Pariwisata/Bangkalan/Pantai Siring Kem
 import GuaPoteBukitJaddih from './pages/Pariwisata/Bangkalan/Gua Pote Bukit Jaddih';
 import AirTerjunToroan from './pages/Pariwisata/Sampang/Air Terjun Toroan';
 import PantaiCamplong from './pages/Pariwisata/Sampang/Pantai Camplong';
+import GoaLebar from './pages/Pariwisata/Sampang/Goa Lebar';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/pariwisata/sampang" element={<ListWisataSampang />} />
         <Route path="/pariwisata/sampang/air-terjun-toroan" element={<AirTerjunToroan />} />
         <Route path="/pariwisata/sampang/pantai-camplong" element={<PantaiCamplong />} />
+        <Route path="/pariwisata/sampang/goa-lebar" element={<GoaLebar />} />
       </Routes>
     </BrowserRouter>
   );

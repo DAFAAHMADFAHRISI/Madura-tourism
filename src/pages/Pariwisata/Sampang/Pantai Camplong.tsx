@@ -2,7 +2,7 @@ import Navbar from "../../../components/Navbar"
 import Camplong1 from "../../../assets/images/Pantai Camplong1.jpg"
 import Camplong2 from "../../../assets/images/Pantai Camplong2.jpg"
 import Camplong3 from "../../../assets/images/Pantai Camplong3.jpg"
-import { Waves, Camera, TreePalm, Sun, Info, MapPin, Users, Ship } from "lucide-react"
+import { Waves, TreePalm, Sun, Info, MapPin, Users } from "lucide-react"
 import { Link } from "react-router-dom"
 
 export default function PantaiCamplong() {
