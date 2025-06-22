@@ -13,6 +13,10 @@ const wisataList = [
   {
     name: "Goa Lebar",
     path: "/pariwisata/sampang/goa-lebar"
+  },
+  {
+    name: "Kompleks Makam Ratu Ibu",
+    path: "/pariwisata/sampang/kompleks-makam-ratu-ibu"
   }
 ];
 
