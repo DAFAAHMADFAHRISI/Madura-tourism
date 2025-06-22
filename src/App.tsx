@@ -10,6 +10,7 @@ import BukitKapurArosbaya from './pages/Pariwisata/Bangkalan/Bukit Kapur Arosbay
 import PantaiSiringKemuning from './pages/Pariwisata/Bangkalan/Pantai Siring Kemuning';
 import GuaPoteBukitJaddih from './pages/Pariwisata/Bangkalan/Gua Pote Bukit Jaddih';
 import AirTerjunToroan from './pages/Pariwisata/Sampang/Air Terjun Toroan';
+import PantaiCamplong from './pages/Pariwisata/Sampang/Pantai Camplong';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/pariwisata/bangkalan/gua-pote-bukit-jaddih" element={<GuaPoteBukitJaddih />} />
         <Route path="/pariwisata/sampang" element={<ListWisataSampang />} />
         <Route path="/pariwisata/sampang/air-terjun-toroan" element={<AirTerjunToroan />} />
+        <Route path="/pariwisata/sampang/pantai-camplong" element={<PantaiCamplong />} />
       </Routes>
     </BrowserRouter>
   );

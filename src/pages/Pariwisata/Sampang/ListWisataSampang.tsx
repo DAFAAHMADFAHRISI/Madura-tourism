@@ -5,6 +5,10 @@ const wisataList = [
   {
     name: "Air Terjun Toroan",
     path: "/pariwisata/sampang/air-terjun-toroan"
+  },
+  {
+    name: "Pantai Camplong",
+    path: "/pariwisata/sampang/pantai-camplong"
   }
 ];
 
