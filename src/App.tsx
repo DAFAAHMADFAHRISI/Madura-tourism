@@ -13,6 +13,7 @@ import AirTerjunToroan from './pages/Pariwisata/Sampang/Air Terjun Toroan';
 import PantaiCamplong from './pages/Pariwisata/Sampang/Pantai Camplong';
 import GoaLebar from './pages/Pariwisata/Sampang/Goa Lebar';
 import KompleksMakamRatuIbu from './pages/Pariwisata/Sampang/Kompleks Makam Ratu Ibu';
+import AlunAlunTrunojoyoKotaSampang from './pages/Pariwisata/Sampang/Alun Alun Trunojoyo Kota Sampang';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/pariwisata/sampang/pantai-camplong" element={<PantaiCamplong />} />
         <Route path="/pariwisata/sampang/goa-lebar" element={<GoaLebar />} />
         <Route path="/pariwisata/sampang/kompleks-makam-ratu-ibu" element={<KompleksMakamRatuIbu />} />
+        <Route path="/pariwisata/sampang/alun-alun-trunojoyo-kota-sampang" element={<AlunAlunTrunojoyoKotaSampang />} />
       </Routes>
     </BrowserRouter>
   );

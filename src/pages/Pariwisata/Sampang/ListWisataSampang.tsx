@@ -17,6 +17,10 @@ const wisataList = [
   {
     name: "Kompleks Makam Ratu Ibu",
     path: "/pariwisata/sampang/kompleks-makam-ratu-ibu"
+  },
+  {
+    name: "Alun Alun Trunojoyo Kota Sampang",
+    path: "/pariwisata/sampang/alun-alun-trunojoyo-kota-sampang"
   }
 ];
 
