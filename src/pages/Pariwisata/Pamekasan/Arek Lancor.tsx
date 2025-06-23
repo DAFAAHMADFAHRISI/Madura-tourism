@@ -10,7 +10,9 @@ export default function ArekLancor() {
     <div className="relative min-h-screen w-screen flex flex-col overflow-hidden bg-gradient-to-br from-green-100 via-white to-yellow-100">
       <Navbar />
       <div className="flex flex-col md:flex-row items-start justify-center gap-4 md:gap-8 pt-24 md:pt-28 pb-6 md:pb-10 px-2 sm:px-4 md:px-16 animate-fade-in-up">
-        <Link to="/pariwisata/pamekasan" className="mb-4 self-start px-4 py-2 bg-green-300 hover:bg-green-400 text-green-900 font-semibold rounded-full shadow transition-all text-xs sm:text-sm">Kembali</Link>
+        <Link to="/pariwisata/pamekasan" className="mb-4 self-start px-6 py-2 bg-[#FFD600] hover:bg-yellow-400 text-black font-bold rounded-full shadow border-2 border-yellow-600 flex items-center gap-2 transition-all text-base" style={{ minWidth: '110px', textAlign: 'center' }}>
+          <span className="text-lg">←</span> Kembali
+        </Link>
         <div className="flex flex-col gap-2 w-full md:w-1/2">
           <img src={Arek1} alt="Arek Lancor 1" className="rounded-3xl shadow-lg border border-white/30 object-cover w-full h-40 sm:h-64 md:h-80" />
           <div className="flex gap-2">

@@ -13,8 +13,8 @@ export default function AlunAlunTrunojoyoKotaSampang() {
       {/* Hero Section with Gallery */}
       <div className="flex flex-col md:flex-row items-start justify-center gap-4 md:gap-8 pt-24 md:pt-28 pb-6 md:pb-10 px-2 sm:px-4 md:px-16 animate-fade-in-up">
         {/* Tombol Kembali di luar galeri gambar */}
-        <Link to="/pariwisata/sampang" className="mb-4 self-start px-4 py-2 bg-yellow-300 hover:bg-yellow-400 text-yellow-900 font-semibold rounded-full shadow transition-all text-xs sm:text-sm">
-          Kembali
+        <Link to="/pariwisata/sampang" className="mb-4 self-start px-6 py-2 bg-[#FFD600] hover:bg-yellow-400 text-black font-bold rounded-full shadow border-2 border-yellow-600 flex items-center gap-2 transition-all text-base" style={{ minWidth: '110px', textAlign: 'center' }}>
+          <span className="text-lg">←</span> Kembali
         </Link>
         {/* Image Gallery */}
         <div className="flex flex-col gap-2 w-full md:w-1/2">
