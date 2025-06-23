@@ -15,6 +15,12 @@ import GoaLebar from './pages/Pariwisata/Sampang/Goa Lebar';
 import KompleksMakamRatuIbu from './pages/Pariwisata/Sampang/Kompleks Makam Ratu Ibu';
 import AlunAlunTrunojoyoKotaSampang from './pages/Pariwisata/Sampang/Alun Alun Trunojoyo Kota Sampang';
 import ListWisataPamekasan from './pages/Pariwisata/Pamekasan/ListWisataPamekasan';
+import PantaiJumiang from './pages/Pariwisata/Pamekasan/Pantai Jumiang';
+import ViharaAvalokitesvara from './pages/Pariwisata/Pamekasan/Vihara Avalokitesvara';
+import ArekLancor from './pages/Pariwisata/Pamekasan/Arek Lancor';
+import ApiTakKunjungPadam from './pages/Pariwisata/Pamekasan/Api Tak Kunjung Padam';
+import KampoengToronSamalem from './pages/Pariwisata/Pamekasan/Kampoeng Toron Samalem';
+
 
 function App() {
   return (
@@ -36,6 +42,11 @@ function App() {
         <Route path="/pariwisata/sampang/kompleks-makam-ratu-ibu" element={<KompleksMakamRatuIbu />} />
         <Route path="/pariwisata/sampang/alun-alun-trunojoyo-kota-sampang" element={<AlunAlunTrunojoyoKotaSampang />} />
         <Route path="/pariwisata/pamekasan" element={<ListWisataPamekasan />} />
+        <Route path="/pariwisata/pamekasan/pantai-jumiang" element={<PantaiJumiang />} />
+        <Route path="/pariwisata/pamekasan/vihara-avalokitesvara" element={<ViharaAvalokitesvara />} />
+        <Route path="/pariwisata/pamekasan/arek-lancor" element={<ArekLancor />} />
+        <Route path="/pariwisata/pamekasan/api-tak-kunjung-padam" element={<ApiTakKunjungPadam />} />
+        <Route path="/pariwisata/pamekasan/kampoeng-toron-samalem" element={<KampoengToronSamalem />} />
       </Routes>
     </BrowserRouter>
   );
