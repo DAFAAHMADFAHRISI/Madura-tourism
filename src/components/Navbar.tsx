@@ -29,7 +29,7 @@ export default function Navbar() {
             <Link to="/pariwisata" className="text-white/90 hover:text-white transition-colors">
               Pariwisata
             </Link>
-            <Link to="#" className="text-white/90 hover:text-white transition-colors">
+            <Link to="/kontak" className="text-white/90 hover:text-white transition-colors">
               Kontak
             </Link>
           </div>
@@ -46,7 +46,7 @@ export default function Navbar() {
             <Link to="/pariwisata" className="text-white/90 hover:text-white transition-colors px-4 py-2" onClick={() => setOpen(false)}>
               Pariwisata
             </Link>
-            <Link to="#" className="text-white/90 hover:text-white transition-colors px-4 py-2" onClick={() => setOpen(false)}>
+            <Link to="/kontak" className="text-white/90 hover:text-white transition-colors px-4 py-2" onClick={() => setOpen(false)}>
               Kontak
             </Link>
           </div>
