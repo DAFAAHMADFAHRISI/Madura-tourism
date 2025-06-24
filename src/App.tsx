@@ -20,6 +20,12 @@ import ViharaAvalokitesvara from './pages/Pariwisata/Pamekasan/Vihara Avalokites
 import ArekLancor from './pages/Pariwisata/Pamekasan/Arek Lancor';
 import ApiTakKunjungPadam from './pages/Pariwisata/Pamekasan/Api Tak Kunjung Padam';
 import KampoengToronSamalem from './pages/Pariwisata/Pamekasan/Kampoeng Toron Samalem';
+import ListWisataSumenep from './pages/Pariwisata/Sumenep/ListWisataSumenep';
+import GiliIyang from "./pages/Pariwisata/Sumenep/Gili Iyang";
+import PulauGiliLabak from "./pages/Pariwisata/Sumenep/Pulau Gili Labak";
+import MasjidAgungSumenep from "./pages/Pariwisata/Sumenep/Masjid Agung Sumenep";
+import MuseumSultanSumenep from "./pages/Pariwisata/Sumenep/Museum Sultan Sumenep";
+import KompleksPemakamanRajaRajaSumenep from "./pages/Pariwisata/Sumenep/Kompleks Pemakaman Raja-Raja Sumenep";
 
 
 function App() {
@@ -47,6 +53,12 @@ function App() {
         <Route path="/pariwisata/pamekasan/arek-lancor" element={<ArekLancor />} />
         <Route path="/pariwisata/pamekasan/api-tak-kunjung-padam" element={<ApiTakKunjungPadam />} />
         <Route path="/pariwisata/pamekasan/kampoeng-toron-samalem" element={<KampoengToronSamalem />} />
+        <Route path="/pariwisata/sumenep" element={<ListWisataSumenep />} />
+        <Route path="/pariwisata/sumenep/gili-iyang" element={<GiliIyang />} />
+        <Route path="/pariwisata/sumenep/pulau-gili-labak" element={<PulauGiliLabak />} />
+        <Route path="/pariwisata/sumenep/masjid-agung-sumenep" element={<MasjidAgungSumenep />} />
+        <Route path="/pariwisata/sumenep/museum-sultan-sumenep" element={<MuseumSultanSumenep />} />
+        <Route path="/pariwisata/sumenep/kompleks-pemakaman-raja-raja-sumenep" element={<KompleksPemakamanRajaRajaSumenep />} />
       </Routes>
     </BrowserRouter>
   );
