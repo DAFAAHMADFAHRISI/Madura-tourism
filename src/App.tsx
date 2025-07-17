@@ -27,6 +27,7 @@ import MasjidAgungSumenep from "./pages/Pariwisata/Sumenep/Masjid Agung Sumenep"
 import MuseumSultanSumenep from "./pages/Pariwisata/Sumenep/Museum Sultan Sumenep";
 import KompleksPemakamanRajaRajaSumenep from "./pages/Pariwisata/Sumenep/Kompleks Pemakaman Raja-Raja Sumenep";
 import Kontak from './pages/Kontak';
+import KarapanSapi from "./pages/Lebih_Lengkap/Karapansapi";
 
 
 function App() {
@@ -61,6 +62,7 @@ function App() {
         <Route path="/pariwisata/sumenep/museum-sultan-sumenep" element={<MuseumSultanSumenep />} />
         <Route path="/pariwisata/sumenep/kompleks-pemakaman-raja-raja-sumenep" element={<KompleksPemakamanRajaRajaSumenep />} />
         <Route path="/kontak" element={<Kontak />} />
+        <Route path="/lebih-lengkap/karapansapi" element={<KarapanSapi />} />
       </Routes>
     </BrowserRouter>
   );

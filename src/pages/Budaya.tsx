@@ -11,6 +11,7 @@ import BatokImg from "../assets/images/Batok.jpg"
 import PakaianImg from "../assets/images/Pakaian.jpeg"
 import PondokImg from "../assets/images/Pondok.jpg"
 import { BookOpen, Drum, Feather, Landmark, Palette, Shield, Shirt, Swords, Waves } from "lucide-react"
+import { Link } from "react-router-dom"
 
 const budayaList = [
   {
@@ -105,7 +106,11 @@ export default function Budaya() {
                 <h2 className="text-white text-2xl font-bold font-serif">{item.title}</h2>
               </div>
               <p className="text-white/90 text-base font-light mb-2">{item.desc}</p>
-              <button className="mt-3 self-end bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-4 py-2 rounded-full transition-all duration-200 shadow">Lebih lengkap</button>
+              {item.title === "Karapan Sapi 🐂" ? (
+                <Link to="/lebih-lengkap/karapansapi" className="mt-3 self-end bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-4 py-2 rounded-full transition-all duration-200 shadow">Lebih lengkap</Link>
+              ) : (
+                <button className="mt-3 self-end bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-4 py-2 rounded-full transition-all duration-200 shadow">Lebih lengkap</button>
+              )}
             </div>
           ))}
         </div>
