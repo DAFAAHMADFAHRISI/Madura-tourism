@@ -29,6 +29,7 @@ import KompleksPemakamanRajaRajaSumenep from "./pages/Pariwisata/Sumenep/Komplek
 import Kontak from './pages/Kontak';
 import KarapanSapi from "./pages/Lebih_Lengkap/Karapansapi";
 import UpacaraRokat from "./pages/Lebih_Lengkap/Upacara Rokat";
+import UpacarNadar from "./pages/Lebih_Lengkap/Upacar Nadar";
 
 
 function App() {
@@ -65,6 +66,7 @@ function App() {
         <Route path="/kontak" element={<Kontak />} />
         <Route path="/lebih-lengkap/karapansapi" element={<KarapanSapi />} />
         <Route path="/lebih-lengkap/upacara-rokat" element={<UpacaraRokat />} />
+        <Route path="/lebih-lengkap/upacar-nadar" element={<UpacarNadar />} />
       </Routes>
     </BrowserRouter>
   );
