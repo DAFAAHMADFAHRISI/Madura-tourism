@@ -2,11 +2,15 @@ import Navbar from "../../components/Navbar";
 import Nadar1 from "../../assets/images/Upacara Nadar1.jpg";
 import Nadar2 from "../../assets/images/Upacara Nadar2.jpg";
 import Nadar3 from "../../assets/images/Upacara Nadar3.jpg";
+import { Link } from "react-router-dom";
 
 export default function UpacarNadar() {
   return (
     <div className="relative min-h-screen w-screen flex flex-col overflow-hidden bg-gradient-to-br from-green-100 via-white to-yellow-100">
       <Navbar />
+      <Link to="/budaya" className="mt-24 mb-4 ml-4 self-start px-6 py-2 bg-[#FFD600] hover:bg-yellow-400 text-black font-medium rounded-full shadow-md border-2 border-yellow-600 flex items-center gap-2 transition-all text-base" style={{ minWidth: '110px', textAlign: 'center' }}>
+        <span className="text-lg">←</span> Kembali
+      </Link>
       <div className="flex flex-col items-center justify-center pt-24 pb-10 px-2 sm:px-4 md:px-16 animate-fade-in-up">
         <h1 className="text-3xl md:text-5xl font-bold font-serif text-gray-800 mb-4 text-center drop-shadow-lg">🙏 Apa Itu Upacara Nadar?</h1>
         <p className="text-base md:text-lg text-gray-700 font-light mb-6 max-w-3xl text-center">
