@@ -30,7 +30,7 @@ import Kontak from './pages/Kontak';
 import KarapanSapi from "./pages/Lebih_Lengkap/Karapansapi";
 import UpacaraRokat from "./pages/Lebih_Lengkap/Upacara Rokat";
 import UpacarNadar from "./pages/Lebih_Lengkap/Upacar Nadar";
-
+import TokTok from "./pages/Lebih_Lengkap/Tok Tok"; 
 
 function App() {
   return (
@@ -67,6 +67,7 @@ function App() {
         <Route path="/lebih-lengkap/karapansapi" element={<KarapanSapi />} />
         <Route path="/lebih-lengkap/upacara-rokat" element={<UpacaraRokat />} />
         <Route path="/lebih-lengkap/upacar-nadar" element={<UpacarNadar />} />
+        <Route path="/lebih-lengkap/tok-tok" element={<TokTok />} />
       </Routes>
     </BrowserRouter>
   );
