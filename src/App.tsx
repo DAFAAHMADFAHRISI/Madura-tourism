@@ -32,6 +32,7 @@ import UpacaraRokat from "./pages/Lebih_Lengkap/Upacara Rokat";
 import UpacarNadar from "./pages/Lebih_Lengkap/Upacar Nadar";
 import TokTok from "./pages/Lebih_Lengkap/Tok Tok"; 
 import RitualOjung from "./pages/Lebih_Lengkap/Ritual Ojung";
+import Carok from "./pages/Lebih_Lengkap/Carok";
 
 function App() {
   return (
@@ -70,6 +71,7 @@ function App() {
         <Route path="/lebih-lengkap/upacar-nadar" element={<UpacarNadar />} />
         <Route path="/lebih-lengkap/tok-tok" element={<TokTok />} />
         <Route path="/lebih-lengkap/ritual-ojung" element={<RitualOjung />} />
+        <Route path="/lebih-lengkap/carok" element={<Carok />} />
       </Routes>
     </BrowserRouter>
   );
