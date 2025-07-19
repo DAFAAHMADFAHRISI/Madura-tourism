@@ -122,6 +122,8 @@ export default function Budaya() {
                 <Link to="/lebih-lengkap/mondok" className="mt-3 self-end bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-4 py-2 rounded-full transition-all duration-200 shadow">Lebih lengkap</Link>
               ) : item.title === "Madurese Batik" ? (
                 <Link to="/lebih-lengkap/madurese-batik" className="mt-3 self-end bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-4 py-2 rounded-full transition-all duration-200 shadow">Lebih lengkap</Link>
+              ) : item.title === "Kerajinan Tradisional" ? (
+                <Link to="/lebih-lengkap/kerajinan-tradisional" className="mt-3 self-end bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-4 py-2 rounded-full transition-all duration-200 shadow">Lebih lengkap</Link>
               ) : (
                 <button className="mt-3 self-end bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold px-4 py-2 rounded-full transition-all duration-200 shadow">Lebih lengkap</button>
               )}

@@ -35,6 +35,7 @@ import RitualOjung from "./pages/Lebih_Lengkap/Ritual Ojung";
 import Carok from "./pages/Lebih_Lengkap/Carok";
 import Mondok from "./pages/Lebih_Lengkap/Mondok";
 import MadureseBatik from "./pages/Lebih_Lengkap/Madurese Batik";
+import KerajinanTradisional from "./pages/Lebih_Lengkap/Kerajinan Tradisional";
 
 function App() {
   return (
@@ -76,6 +77,7 @@ function App() {
         <Route path="/lebih-lengkap/carok" element={<Carok />} />
         <Route path="/lebih-lengkap/mondok" element={<Mondok />} />
         <Route path="/lebih-lengkap/madurese-batik" element={<MadureseBatik />} />
+        <Route path="/lebih-lengkap/kerajinan-tradisional" element={<KerajinanTradisional />} />
       </Routes>
     </BrowserRouter>
   );
